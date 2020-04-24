@@ -1,0 +1,58 @@
+
+.head1
+{
+	display: flex;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 8vh;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.head2
+{
+margin-top: 16px;
+margin-left: 10vh;
+}
+.heading
+{
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	letter-spacing: -2px;
+	word-spacing: 2px;
+}
+.head3{
+	margin-left: 80vh;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+	margin-left: 10vh;
+}
+.list1
+{
+
+	float: right;
+	right: 10px;
+
+}
+.list2
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 30px;
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	letter-spacing: -2px;
+	word-spacing: 2px;
+
+}
+.list-link
+{
+	color: white;
+	font-size: 26px;
+	letter-spacing: -2px;
+	word-spacing: 2px;
+}
