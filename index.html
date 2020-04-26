@@ -2,8 +2,13 @@
 <html>
 <meta charset="utf-8">
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Coding Avengers</title>
+	<link rel="stylesheet" href="src/bootstrap.min.css">
+    	<script src="src/jquery.min.js"></script
+    	<script src="src/popper.min.js"></script>
+    	<script src="src/bootstrap.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="index.css">
 	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
@@ -36,6 +41,40 @@
 </section>
 <section>
 <!-- Our Top Sites-->
+	<div class="container">
+		<div id="myslideshow" class="carousel slide carousel-fade" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#myslideshow" data-slide-to="0"></li>
+				<li data-target="#myslideshow" data-slide-to="1"></li>
+			</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<a href="www.courseera.com" target="_blank"><img src="src/courseera.jpeg" class="d-block w-100" width="1100px" heigth="500px"></a>
+				<div class="carousel-caption">
+					<h3>Courseera</h3>
+					<p>Courseera is an online platform for students to grown up their knowledge</p>
+					
+				</div>	
+			</div>
+			<div class="carousel-item">
+				<a href="www.pluralsight.com" target="_blank"><img src="src/pluralsight.jpg" class="d-block w-100" width="1100px" heigth="500px"></a>
+				<div class="carousel-caption">
+					<h3>pluralsight</h3>
+					<p>Pluralsight is an online platform for students to grown up their knowledge</p>
+					
+			</div>
+		</div>	
+		</div>
+		<a href="#myslideshow" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#myslideshow" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+	</div>
+	</div>
 
 </section>
 <section>
